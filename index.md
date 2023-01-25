@@ -1,3 +1,7 @@
+layout: page
+title: "NYAOS.ORG"
+permalink: https://nyaos.org/
+
 The "NYAOS" Series are the enhanced commandline shells for Windows and other OSes.
 
 |                                                   |OS/2|DOS|Windows|Linux| License |Build|Lua       |Code|Support
