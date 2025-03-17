@@ -1,2 +1,2 @@
-docs/Index.html: Index.md header.md
+docs/index.html: index.md header.md
 	minipage -header header.md $< > $@
