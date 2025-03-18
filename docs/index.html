@@ -1,5 +1,4 @@
-<html>
-<head>
+<html><head>
 <style type="text/css"><!--
 /* light */
 .markdown-body {
@@ -1109,36 +1108,31 @@
 
 	.markdown-body {
 		box-sizing: border-box;
-		min-width: 200px;
 		max-width: 980px;
 		margin: 0 auto;
 		padding: 45px;
 	}
-
-	@media /* (max-width: 767px)*/ {
-		.markdown-body {
-			padding: 15px;
-		}
+	body{
+		display:flex;
+		overflow-y: scroll;
 	}
-
 	@media screen{
-		div.sidebar{ float:right; width:25%!;(MISSING) /* word-break: break-all; */font-size:90%!}(MISSING)
-		div.main{ float:left; width:70%!}(MISSING)
+		div.sidebar{ width:30% }
+		div.main{ width:70% }
 	}
 
 	@media print{
-		div.sidebar,div.footer,div.adminmenu{ display:none }
+		div.sidebar,div.footer{ display:none }
 		div.main{ width:100%!}(MISSING)
 	}
 
 // -->
-</style>
-</head><body class="markdown-body" style="display:flex"><div class="main">
-<div class="header">
-<h1 id="nyaosorg">NYAOS.ORG</h1>
-</div><!-- "header" -->
+</style></head><body>
+<div class="main markdown-body">
 <div class="body">
-<p>The &quot;NYAOS&quot; Series are the enhanced commandline shells for Windows and other OSes.</p>
+<h1 id="nyaosorg">NYAOS.ORG</h1>
+<h2 id="the-hybrid-commandline-shell-nyaos-and-nyagos">The hybrid commandline shell NYAOS and <a href="https:nyaos.org/nyagos">NYAGOS</a></h2>
+<p>NYAOS and <a href="https:nyaos.org/nyagos">NYAGOS</a> are command-line shells that combine UNIX-like command-line editing with seamless support for DOS/Windows file system paths and batch files.</p>
 <table>
 <thead>
 <tr>
@@ -1156,7 +1150,7 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="https://github.com/nyaosorg/nyaos1000">NYAOS  1.x</a></td>
+<td><a href="https://github.com/nyaosorg/nyaos1000">NYAOS 1.x</a></td>
 <td>v</td>
 <td></td>
 <td></td>
@@ -1168,7 +1162,7 @@
 <td>1996-2000</td>
 </tr>
 <tr>
-<td><a href="https://github.com/nyaosorg/nyaos2000">NYAOS  2.x</a></td>
+<td><a href="https://github.com/nyaosorg/nyaos2000">NYAOS 2.x</a></td>
 <td>v</td>
 <td>v</td>
 <td>v</td>
@@ -1180,7 +1174,7 @@
 <td>2001-2010</td>
 </tr>
 <tr>
-<td><a href="https://github.com/nyaosorg/nyaos3000">NYAOS  3.x</a></td>
+<td><a href="https://github.com/nyaosorg/nyaos3000">NYAOS 3.x</a></td>
 <td>v</td>
 <td></td>
 <td>v</td>
@@ -1192,7 +1186,7 @@
 <td>2010-2014</td>
 </tr>
 <tr>
-<td><a href="https://github.com/nyaosorg/nyagos"><strong>NYAGOS 4.x</strong></a></td>
+<td><a href="https:nyaos.org/nyagos">NYAGOS</a></td>
 <td></td>
 <td></td>
 <td>v</td>
@@ -1207,11 +1201,21 @@
 </table>
 <ul>
 <li>Line Editor and history like UNIX shells</li>
-<li>Color ls</li>
+<li>Color ls and commandline</li>
 <li>Alias and Function</li>
 <li>key-binding custom</li>
 <li>Filename completion</li>
 </ul>
+<h2 id="a-single-file-wiki---wifkyhttpwifkynyaosorg"><a href="http://wifky.nyaos.org/">A Single File Wiki - wifky</a></h2>
+<p><code>wifky</code> is a lightweight WikiEngine designed for easy installation.</p>
+<ul>
+<li>Installation is as simple as uploading a single file via FTP and setting it executable with chmod +x.</li>
+<li>Requires Perl 5.004 or later. No external libraries are needed, ensuring compatibility in various environments.</li>
+<li>Supports essential features like images, attachments, and one-line comments.</li>
+<li>Provides useful tools for personal text websites, such as page freezing and restricting new page creation to administrators.</li>
+</ul>
+<h2 id="author">Author</h2>
+<p>HAYAMA Kaoru (a.k.a <a href="https://github.com/hymkor/">hymkor</a>, formerly zetamatta)</p>
 </div><!-- "body" -->
 </div><!-- "main" -->
 </body></html>
