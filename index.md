@@ -1,26 +1,30 @@
 # NYAOS.ORG
 
-## The hybrid commandline shell NYAOS and [NYAGOS]
+## NYAOS &amp; [NYAGOS]: Hybrid Command-Line Shells for Power Users
 
-NYAOS and [NYAGOS] are command-line shells that combine UNIX-like command-line editing with seamless support for DOS/Windows file system paths and batch files.
+NYAOS and NYAGOS are powerful command-line shells that combine the intuitive line editing of UNIX shells with seamless support for DOS/Windows file system paths and batch files.
 
-|           |OS/2|DOS|Windows|Linux| License |Build|Lua       |Code|Support
-|-----------|----|---|-------|-----|---------|-----|----------|----|---------
-|[NYAOS 1.x]| v  |   |       |     | GNU GPL |C++  |          |DBCS|1996-2000
-|[NYAOS 2.x]| v  | v | v     |     | GNU GPL |C++  |          |DBCS|2001-2010
-|[NYAOS 3.x]| v  |   | v     |     | GNU GPL |C++  |Lua 5.2   |DBCS|2010-2014
-|[NYAGOS]   |    |   | v     | v   | New BSD |Go   |GopherLua |UTF8|2014-Now
+Designed for developers and power users, they enhance your workflow with flexible customization and robust features.
+
+- Enjoy UNIX-style line editing and command history
+- Highlight files and commands with colors
+- Define aliases and functions for faster commands
+- Customize key bindings to suit your workflow
+- Complete filenames effortlessly with smart suggestions
+
+|           |OS/2|DOS|Windows|Linux| License |Build|Lua        |Code|Support
+|-----------|----|---|-------|-----|---------|-----|-----------|----|---------
+|[NYAOS 1.x]| v  |   |       |     | GNU GPL |C++  |           |DBCS|1996-2000
+|[NYAOS 2.x]| v  | v | v     |     | GNU GPL |C++  |           |DBCS|2001-2010
+|[NYAOS 3.x]| v  |   | v     |     | GNU GPL |C++  |[Lua] 5.2  |DBCS|2010-2014
+|[NYAGOS]   |    |   | v     | v   | New BSD |Go   |[GopherLua]|UTF8|2014-Now
 
 [NYAOS 1.x]: https://github.com/nyaosorg/nyaos1000
 [NYAOS 2.x]: https://github.com/nyaosorg/nyaos2000
 [NYAOS 3.x]: https://github.com/nyaosorg/nyaos3000
 [NYAGOS]: https://nyaos.org/nyagos
-
-- Line Editor and history like UNIX shells
-- Color ls and commandline
-- Alias and Function
-- key-binding custom
-- Filename completion
+[GopherLua]: https://github.com/yuin/gopher-lua
+[Lua]: https://www.lua.org/
 
 ## [A Single File Wiki - wifky](http://wifky.nyaos.org/)
 
