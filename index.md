@@ -14,7 +14,7 @@ NYAOS and [NYAGOS] are command-line shells that combine UNIX-like command-line e
 [NYAOS 1.x]: https://github.com/nyaosorg/nyaos1000
 [NYAOS 2.x]: https://github.com/nyaosorg/nyaos2000
 [NYAOS 3.x]: https://github.com/nyaosorg/nyaos3000
-[NYAGOS]: https:nyaos.org/nyagos
+[NYAGOS]: https://nyaos.org/nyagos
 
 - Line Editor and history like UNIX shells
 - Color ls and commandline
